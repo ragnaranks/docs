@@ -12,6 +12,9 @@ If you are looking to contribute towards this the documentation you can see our 
 [Vote For Points Setup](./vote4points.html)
 <br><small>Retrieving your vote for points link api and setting it up.</small>
 
+[Back to the Website](http://www.ragnaranks.com)
+<br><small>Sometimes you can get lost, let us lead the way back.</small>
+
 <br>
 
 ### Getting Support
