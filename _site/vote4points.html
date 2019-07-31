@@ -32,33 +32,33 @@
 
 <h2 id="contents">Contents</h2>
 <ul>
-  <li><a href="">Getting Started</a></li>
-  <li><a href="">Adding a Vote Site</a></li>
-  <li><a href="">Vote site configuration</a></li>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#getting-started">Getting Started</a></li>
+  <li><a href="#adding-a-vote-site">Adding a Vote Site</a></li>
+  <li><a href="#vote-site-configuration">Vote site Configuration</a></li>
+  <li><a href="#finishing-up">Finishing Up</a></li>
 </ul>
 
-<h2 id="vote-for-points-setup">Vote for points setup</h2>
-
-<p>Our API system is built with the idea of simplicity, a minimalistic approach to setup and usage, it is of great concern that many vote for points systems that are currently being used do not use any sort of json call-backs or any tracking to validate the users actually vote once they click the link, your website in return rewards players points for the click and not the voting, Our API system aims to implement a unique way of correcting this problem, once a user clicks a link to vote, you can be safe in knowing that that click actually mattered, and their vote was contributed towards your server listing, this is done by using a uniquely generated API token that exists only for your account, that allows your website to authenticate itself and vote on your behalf, each vote is tracked by IP Address, meaning even with authentication, anyone can vote for your listing. To make things even easier we have created a guide with images that you can follow to successfully use such feature.</p>
+<h2 id="introduction">#Introduction</h2>
 
 <blockquote>
   <p>Before you follow this guide, please make sure you have <a href="./listing.html">Created a Listing</a>.
 This step is important as you will require a uniquely generated API link.</p>
 </blockquote>
 
-<p><br /></p>
+<p>Our API system is built with the idea of simplicity, a minimalistic approach to setup and usage, it is of great concern that many vote for points systems that are currently being used do not use any sort of json call-backs or any tracking to validate the users actually vote once they click the link, your website in return rewards players points for the click and not the voting, Our API system aims to implement a unique way of correcting this problem, once a user clicks a link to vote, you can be safe in knowing that that click actually mattered, and their vote was contributed towards your server listing, this is done by using a uniquely generated API token that exists only for your account, that allows your website to authenticate itself and vote on your behalf, each vote is tracked by IP Address, meaning even with authentication, anyone can vote for your listing. To make things even easier we have created a guide with images that you can follow to successfully use such feature.</p>
 
-<h3 id="getting-started">Getting Started</h3>
+<h3 id="getting-started">#Getting Started</h3>
 <ul>
   <li>First things first, using your flux control panel click the <code class="highlighter-rouge">vote for points</code> module. <img src="./images/v4p/step1.png" alt="alt text" title="Step 1: Clicking the vote for points module." /></li>
 </ul>
 
-<h3 id="adding-a-vote-site">Adding a Vote Site</h3>
+<h3 id="adding-a-vote-site">#Adding a Vote Site</h3>
 <ul>
   <li>Next we must add a new voting site, this can be done using the menu presented underneath your admin actions. <img src="./images/v4p/step2.png" alt="alt text" title="Step 2: Select add new voting site." /></li>
 </ul>
 
-<h3 id="vote-site-configuration">Vote site configuration</h3>
+<h3 id="vote-site-configuration">#Vote site configuration</h3>
 <ul>
   <li>Now the easy part, adding ragnaranks to your vote list, To complete this we must enter some information that corresponds to our website and your specific instance that was created there. <img src="./images/v4p/step3.png" alt="alt text" title="Step 3: Viewing the form." /></li>
   <li>Visit <a href="http://www.ragnaranks.test/account">My Account</a> on <a href="http://www.ragnaranks.com">Ragnaranks.com</a> and scroll down to <code class="highlighter-rouge">API Direct Vote For Point Links</code> section, this will display a list of your currently created sites and the uniquely generated link that has been made just for your listing, you will need to copy the link inside the input textbox that corresponds to the listing you wish to have direct interaction with on your <code class="highlighter-rouge">vote for points</code> module, this will be used as the information required on the flux cp panel. <code class="highlighter-rouge">vote url</code>, example url of how it should look is as follows: <code class="highlighter-rouge">http://www.ragnaranks.test/api/ragnarok-server/vote4points?api_token=29e37846f3f2138af85960c7477522e81219e9e24e0395ea91de5c2660aa1220</code> <img src="./images/v4p/step5.png" alt="alt text" title="Step 5: Grabbing your vote for points api link." /></li>
@@ -66,7 +66,7 @@ This step is important as you will require a uniquely generated API link.</p>
   <li>Finishing up the form, you are required to select add site, allowing your new entry to be pushed to your collection of other vote for point sites. <img src="./images/v4p/step7.png" alt="alt text" title="Step 7: Click the add site button to finish." /></li>
 </ul>
 
-<h2 id="finishing-up">Finishing Up</h2>
+<h2 id="finishing-up">#Finishing Up</h2>
 <ul>
   <li>Once you have successfully added the new vote site by following the guide in the above section, you should select the <code class="highlighter-rouge">Listing Voting Sites</code> button found on the menu, underneath the admin control action, this will present a list of all the available vote sites on your website that players can interact with. <img src="./images/v4p/step8.png" alt="alt text" title="Step 8: Click Listing Voting sites to see your new listing." /></li>
   <li>And that’s everything, you should now see your new vote site added to your website and functioning correctly ! <img src="./images/v4p/step9.png" alt="alt text" title="Step 9: Verifying the finalised new vote site." /></li>
