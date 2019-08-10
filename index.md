@@ -1,4 +1,4 @@
-## Welcome to {{ site.title }}
+## Welcome to Ragnaranks Docs
 
 Here you can make use of our helpful guides that will enhance your experience with your site and its ease of use.
 If you are looking to contribute towards this the documentation you can see our repo at [ragnaranks\docs](https://github.com/ragnaranks/docs).
