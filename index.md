@@ -14,6 +14,9 @@ If you are looking to contribute towards this the documentation you can see our 
 
 [Server Heartbeats](./heartbeats.html)
 <br><small>Learn how we do a checkup on your server/website status
+  
+[Earning Coins](./earning-coins.html)
+<br><small>Coins are our new implementation allowing you to earn for your usage
 
 [Back to the Website](http://www.ragnaranks.com)
 <br><small>Sometimes you can get lost, let us lead the way back.</small>
