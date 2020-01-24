@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Adding a Vote Site](#adding-a-vote-site)
+- [Asset Images](#assets)
 - [Vote site Configuration](#vote-site-configuration)
 - [Finishing Up](#finishing-up)
 
@@ -19,6 +20,10 @@ Our API system is built with the idea of simplicity, a minimalistic approach to 
 
 ### Adding a Vote Site
 - Next we must add a new voting site, this can be done using the menu presented underneath your admin actions. ![alt text](./images/v4p/step2.png "Step 2: Select add new voting site.")
+
+### Asset Images
+- If you do not have an images rendered for usage with buttons on your site, you can take a look at our [asset store](./assets.html).
+![alt text](./images/banner.png "Vote for us banner.")
 
 ### Vote site configuration
 - Now the easy part, adding ragnaranks to your vote list, To complete this we must enter some information that corresponds to our website and your specific instance that was created there. ![alt text](./images/v4p/step3.png "Step 3: Viewing the form.")
