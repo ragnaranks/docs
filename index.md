@@ -17,6 +17,9 @@ If you are looking to contribute towards this the documentation you can see our 
   
 [Earning Coins](./earning-coins.html)
 <br><small>Coins are our new implementation allowing you to earn for your usage
+  
+[Ragnaranks Assets](./assets.html)
+<br><small>Resources made available for public usage.</small>
 
 [Back to the Website](http://www.ragnaranks.com)
 <br><small>Sometimes you can get lost, let us lead the way back.</small>
