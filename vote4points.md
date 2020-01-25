@@ -4,8 +4,8 @@
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Adding a Vote Site](#adding-a-vote-site)
-- [Asset Images](#assets)
-- [Vote site Configuration](#vote-site-configuration)
+- [Asset Images](#asset-images)
+- [Vote Site Configuration](#vote-site-configuration)
 - [Finishing Up](#finishing-up)
 
 ## Introduction
@@ -25,7 +25,7 @@ Our API system is built with the idea of simplicity, a minimalistic approach to 
 - If you do not have an images rendered for usage with buttons on your site, you can take a look at our [asset store](./assets.html).
 ![alt text](./images/banner.png "Vote for us banner.")
 
-### Vote site configuration
+### Vote Site configuration
 - Now the easy part, adding ragnaranks to your vote list, To complete this we must enter some information that corresponds to our website and your specific instance that was created there. ![alt text](./images/v4p/step3.png "Step 3: Viewing the form.")
 - Visit [My Account](http://www.ragnaranks.com/account) on [Ragnaranks.com](http://www.ragnaranks.com) and scroll down to `API Direct Vote For Point Links` section, this will display a list of your currently created sites and the uniquely generated link that has been made just for your listing, you will need to copy the link inside the input textbox that corresponds to the listing you wish to have direct interaction with on your `vote for points` module, this will be used as the information required on the flux cp panel. `vote url`, example url of how it should look is as follows: `http://www.ragnaranks.test/api/ragnarok-server/vote4points?api_token=29e37846f3f2138af85960c7477522e81219e9e24e0395ea91de5c2660aa1220` ![alt text](./images/v4p/step5.png "Step 5: Grabbing your vote for points api link.")
 - Last step is to finally fill in the information using the api link we retrieved in the last step and by setting up the time constraint and reward amounts, our server as of this current time allows votes every `6 hours` & `recommended value of 7 points`, this is subject to change so its in your best interest that you keep up to date by following our [facebook page](https://www.facebook.com/ragnaranks/), the image url should resemble your own website design and layout as such please add a suitable image. ![alt text](./images/v4p/step6.png "Step 6: Filling out the form.")
